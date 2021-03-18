@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre - Feuille - Ciseau</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row ">
+            <h1 class="col-12 text-center">Pierre - Papier - Ciseau</h1>
+        </div>
+    </div>
+
+    <div class="row scores justify-content-around">
+
+        <div class=" col-2 score score1">
+            <div class="row align-items-center justify-content-center">
+                <div id="score1" class=" col-6 align-self-center text-center">
+                    0
+                </div>
+            </div>
+        </div>
+        <div style="padding-top : 6vh" class="col-8 text-center align-self-center">
+            <h2 id="sentences">Make your Choice !</h2>
+        </div>
+        <div class=" col-2 score2 score">
+            <div class="row justify-content-center">
+                <div id="score2" class="col-6 text-center">
+                    0
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+
+        <div class="col ">
+        </div>
+        <div id="choix1"class="col-4 col-sm-3 choices">
+            ?
+        </div>
+        <div class="col ">
+        </div>
+        <div id="choix2" class=" col-4 col-sm-3 choices">
+            ?
+        </div>
+        <div class="col  ">
+        </div>
+    </div>
+    <div class="row justify-content-around">
+
+
+            <button id="pierre" type="button" class="col-3 col-sm-2" style="background-image: url('pierre.png');">
+
+            </button>
+
+
+            <button id="papier" type="button" class="col-3 col-sm-2" style="background-image: url(Papier.png)" >
+
+            </button>
+
+
+            <button id="ciseaux" type="button" class="col-3 col-sm-2" style="background-image: url('Ciseaux.png')" >
+
+            </button>
+ 
+    </div>
+</div> 
+
+    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
